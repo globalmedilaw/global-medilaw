@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f9;
+}
+
+header {
+    background-color: #006666;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: #004d4d;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #009999;
+    margin-top: 30px;
+}
