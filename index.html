@@ -1,35 +1,62 @@
-<nav>
-  <a href="index.html">Home</a>
-  <a href="services.html">Services</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<!-- index.php or home.php -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Global MEDILAW Organisation</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Services at One Place</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        <h1>Global MEDILAW Organisation</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="services.html">Services</a>
-        </nav>
-    </header>
+<body class="bg-gray-50 text-gray-800">
 
-    <main>
-        <h2>Healing Hands, Justice Minds</h2>
-        <p><strong>Welcome to the Global MEDILAW Organisation</strong> — where we bring together medical and legal support for the people who need it most.</p>
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md px-6 py-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-indigo-600">All Services</h1>
+    <ul class="flex space-x-6 text-sm font-medium">
+      <li><a href="#" class="hover:text-indigo-600">Home</a></li>
+      <li><a href="#services" class="hover:text-indigo-600">Services</a></li>
+      <li><a href="#contact" class="hover:text-indigo-600">Contact</a></li>
+      <li><a href="#join" class="hover:text-indigo-600">Join Us</a></li>
+    </ul>
+  </nav>
 
-        <h3>Our Mission</h3>
-        <p>To integrate healthcare and legal aid, creating access and awareness among underprivileged communities.</p>
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-6 bg-gradient-to-r from-indigo-600 to-green-500 text-white">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">One Platform for All Your Service Needs</h2>
+    <p class="text-lg md:text-xl mb-8">Book trusted professionals for home, legal, medical, and daily needs.</p>
+    <a href="#services" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Explore Services</a>
+  </section>
 
-        <h3>Tagline</h3>
-        <blockquote>"Bringing medical and legal services to those who need it most."</blockquote>
-    </main>
+  <!-- Services Section -->
+  <section id="services" class="py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Household Services</h4>
+        <p>Electrician, Plumber, Carpenter, Mechanic, and more.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Professional Help</h4>
+        <p>Doctor, Legal Consultants, Travel, Education, Loan Advice.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Daily Essentials</h4>
+        <p>Organic Veggies, Groceries, Fresh Milk, and more at your doorstep.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="join" class="bg-indigo-600 text-white py-12 text-center px-6">
+    <h3 class="text-2xl font-bold mb-4">Are You a Service Provider?</h3>
+    <p class="mb-6">Join us to grow your customer base and connect with local clients!</p>
+    <a href="#" class="bg-white text-indigo-600 font-semibold px-6 py-3 rounded-full hover:bg-gray-100 transition">Join Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-100 text-center py-6 mt-10">
+    <p>© 2025 All Services at One Place. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
